@@ -5,7 +5,8 @@
   "type": "module",
   "dependencies": {
     "commander": "^15.0.0",
-    "justask-core": "workspace:*"
+    "justask-core": "workspace:*",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^25.9.1"
