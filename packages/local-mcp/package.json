@@ -1,6 +1,6 @@
 {
   "name": "@amz-dev/justask-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "justask-mcp": "./dist/index.js"
   },
