@@ -9,6 +9,18 @@
         "typescript": "^5.8.2",
       },
     },
+    "apps/remote-mcp": {
+      "name": "justask-remote-mcp",
+      "version": "0.0.0",
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.29.0",
+        "hono": "^4.12.23",
+        "justask-core": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/node": "^25.9.1",
+      },
+    },
     "packages/cli": {
       "name": "justask",
       "version": "0.0.0",
@@ -152,6 +164,8 @@
     "justask-core": ["justask-core@workspace:packages/core"],
 
     "justask-mcp": ["justask-mcp@workspace:packages/local-mcp"],
+
+    "justask-remote-mcp": ["justask-remote-mcp@workspace:apps/remote-mcp"],
 
     "math-intrinsics": ["math-intrinsics@1.1.0", "", {}, "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g=="],
 
