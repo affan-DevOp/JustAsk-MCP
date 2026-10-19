@@ -1,0 +1,37 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_grad" x1="0" y1="0" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="bubble_grad" x1="80" y1="80" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="accent_grad" x1="120" y1="120" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="glow" x="60" y="60" width="200" height="200" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- Background Plate -->
+  <rect width="320" height="320" rx="72" fill="url(#bg_grad)"/>
+  <rect x="1" y="1" width="318" height="318" rx="71" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Subtle Glow -->
+  <circle cx="160" cy="155" r="55" fill="#3B82F6" opacity="0.25" filter="url(#glow)"/>
+
+  <!-- Chat / Send Bubble Shape -->
+  <path d="M80 104C80 90.7452 90.7452 80 104 80H216C229.255 80 240 90.7452 240 104V184C240 197.255 229.255 208 216 208H151L105.5 240V208H104C90.7452 208 80 197.255 80 184V104Z" fill="url(#bubble_grad)"/>
+  
+  <!-- Message Icon Lines -->
+  <path d="M116 122H204" stroke="url(#accent_grad)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M116 156H172" stroke="url(#accent_grad)" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Sparkle Accent -->
+  <circle cx="218" cy="156" r="8" fill="#F8FAFC"/>
+</svg>
