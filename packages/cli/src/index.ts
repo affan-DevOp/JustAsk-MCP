@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Command } from "commander";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
