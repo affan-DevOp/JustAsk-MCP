@@ -7,16 +7,16 @@
     "packages/*"
   ],
   "scripts": {
-    "build:core": "bun run --filter justask-core build",
-    "build:cli": "bun run --filter justask build",
-    "build:local-mcp": "bun run --filter justask-mcp build",
+    "build:core": "bun run --filter @amz-dev/justask-core build",
+    "build:cli": "bun run --filter @amz-dev/justask build",
+    "build:local-mcp": "bun run --filter @amz-dev/justask-mcp build",
     "build": "bun run build:core && bun run build:cli && bun run build:local-mcp",
     "dev:cli": "bun run packages/cli/src/index.ts",
     "dev:local-mcp": "bun run packages/local-mcp/src/index.ts",
     "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts",
-    "release:pack:core": "bun run --filter justask-core pack:dry",
-    "release:pack:cli": "bun run --filter justask pack:dry",
-    "release:pack:local-mcp": "bun run --filter justask-mcp pack:dry",
+    "release:pack:core": "bun run --filter @amz-dev/justask-core pack:dry",
+    "release:pack:cli": "bun run --filter @amz-dev/justask pack:dry",
+    "release:pack:local-mcp": "bun run --filter @amz-dev/justask-mcp pack:dry",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

@@ -5,10 +5,10 @@ description: Send Telegram messages from an agent through the JustAsk MCP `teleg
 
 # JustAsk
 
-JustAsk sends Telegram messages. It exposes the same operation two ways, both backed by `justask-core`:
+JustAsk sends Telegram messages. It exposes the same operation two ways, both backed by `@amz-dev/justask-core`:
 
 - **MCP tool** (`justask` server → `telegram` tool) — preferred for agents.
-- **CLI** (`justask`, binary `justask`) — fallback when MCP is unavailable or for manual verification.
+- **CLI** (`@amz-dev/justask`, binary `justask`) — fallback when MCP is unavailable or for manual verification.
 
 Both take a `chatId` and a `message`, call the Telegram Bot API, and return `{ ok: true, chatId, messageId }`.
 
@@ -48,7 +48,7 @@ justask telegram <chatId> <message>
 
 On success it prints the JSON result, e.g. `{"ok":true,"chatId":"123","messageId":42}`. If no token is configured it errors with `Telegram bot token is required. Run \`justask init\`.`
 
-Run the CLI directly or via `bun run dev:cli telegram <chatId> <message>` or `node packages/cli/dist/index.js telegram <chatId> <message>`.
+Run the CLI without a global install via `bunx @amz-dev/justask telegram <chatId> <message>` (or the `npx` equivalent), or locally via `bun run dev:cli telegram <chatId> <message>`.
 
 ## Verifying manually
 

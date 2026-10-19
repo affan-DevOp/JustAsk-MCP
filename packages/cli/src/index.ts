@@ -3,7 +3,7 @@ import { Command } from "commander";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { sendTelegramMessage, z } from "justask-core";
+import { sendTelegramMessage, z } from "@amz-dev/justask-core";
 
 const program = new Command();
 const configPath = join(homedir(), ".config", "justask", "config.json");

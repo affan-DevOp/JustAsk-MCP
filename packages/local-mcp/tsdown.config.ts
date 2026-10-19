@@ -11,6 +11,6 @@ export default defineConfig({
   outDir: "dist",
   outExtensions: () => ({ js: ".js", dts: ".d.ts" }),
   deps: {
-    neverBundle: ["justask-core", "@modelcontextprotocol/sdk", "zod"],
+    neverBundle: ["@amz-dev/justask-core", "@modelcontextprotocol/sdk", "zod"],
   },
 });

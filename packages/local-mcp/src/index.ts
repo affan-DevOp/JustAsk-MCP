@@ -5,7 +5,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { existsSync, readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { telegramMessageInputSchema, sendTelegramMessage } from "justask-core";
+import { telegramMessageInputSchema, sendTelegramMessage } from "@amz-dev/justask-core";
 
 const server = new McpServer({
   name: "justask-local",

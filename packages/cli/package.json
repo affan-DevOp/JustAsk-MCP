@@ -1,5 +1,5 @@
 {
-  "name": "justask",
+  "name": "@amz-dev/justask",
   "version": "0.0.0",
   "bin": {
     "justask": "./dist/index.js"
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "commander": "^15.0.0",
-    "justask-core": "workspace:*",
+    "@amz-dev/justask-core": "workspace:*",
     "zod": "^3.24.2"
   },
   "scripts": {
