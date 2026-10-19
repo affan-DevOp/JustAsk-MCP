@@ -13,6 +13,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@clerk/backend": "^3.8.2",
+    "@clerk/mcp-tools": "^0.5.0",
     "@types/node": "^25.9.2",
     "typescript": "^5.8.2"
   }

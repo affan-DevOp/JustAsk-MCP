@@ -5,11 +5,6 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "types": ["node"],
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "justask-core": ["./packages/core/src/index.ts"],
-      "sendkit-core": ["./packages/core/src/index.ts"]
-    }
+    "skipLibCheck": true
   }
 }
