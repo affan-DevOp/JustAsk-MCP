@@ -29,7 +29,7 @@
     },
     "packages/cli": {
       "name": "@amz-dev/justask",
-      "version": "0.0.0",
+      "version": "0.0.1",
       "bin": {
         "justask": "./dist/index.js",
       },
@@ -44,14 +44,14 @@
     },
     "packages/core": {
       "name": "@amz-dev/justask-core",
-      "version": "0.0.0",
+      "version": "0.0.1",
       "dependencies": {
         "zod": "^3.24.2",
       },
     },
     "packages/local-mcp": {
       "name": "@amz-dev/justask-mcp",
-      "version": "0.0.0",
+      "version": "0.0.1",
       "bin": {
         "justask-mcp": "./dist/index.js",
       },
