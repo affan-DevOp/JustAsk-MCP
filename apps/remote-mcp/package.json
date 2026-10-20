@@ -1,6 +1,14 @@
 {
   "name": "justask-remote-mcp",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "description": "Remote Model Context Protocol (MCP) HTTP server with Clerk OAuth 2.1 for JustAsk",
+  "author": "Affan Mushtaque <https://github.com/affan-DevOp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP.git",
+    "directory": "apps/remote-mcp"
+  },
   "private": true,
   "type": "module",
   "exports": {

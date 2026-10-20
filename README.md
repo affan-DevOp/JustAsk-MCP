@@ -9,14 +9,16 @@
 </p>
 
 <p align="center">
-  by <a href="https://github.com/affan-DevOp">@amz-dev</a>
+  by <a href="https://github.com/affan-DevOp">Affan Mushtaque (@affan-DevOp)</a>
 </p>
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license" /></a>
-  <a href="https://www.npmjs.com/package/@amz-dev/justask"><img src="https://img.shields.io/npm/v/@amz-dev/justask" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/@amz-dev/justask"><img src="https://img.shields.io/npm/v/@amz-dev/justask?label=cli" alt="npm cli version" /></a>
+  <a href="https://www.npmjs.com/package/@amz-dev/justask-mcp"><img src="https://img.shields.io/npm/v/@amz-dev/justask-mcp?label=mcp" alt="npm mcp version" /></a>
   <a href="https://clerk.com"><img src="https://img.shields.io/badge/Clerk-auth%202.1-6C47FF?logo=clerk&logoColor=white" alt="Clerk OAuth" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-2024--11--05-blue" alt="MCP Protocol" /></a>
+  <a href="https://github.com/affan-DevOp/JustAsk-MCP"><img src="https://img.shields.io/github/stars/affan-DevOp/JustAsk-MCP?style=social" alt="GitHub stars" /></a>
 </p>
 
 > **Prompt:** "Send a Telegram message to my team saying the deployment succeeded."

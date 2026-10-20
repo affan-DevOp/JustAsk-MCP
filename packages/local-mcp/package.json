@@ -1,6 +1,14 @@
 {
   "name": "@amz-dev/justask-mcp",
   "version": "0.0.2",
+  "description": "Local Model Context Protocol (MCP) stdio server for JustAsk",
+  "author": "Affan Mushtaque <https://github.com/affan-DevOp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP.git",
+    "directory": "packages/local-mcp"
+  },
   "bin": {
     "justask-mcp": "./dist/index.js"
   },

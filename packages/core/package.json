@@ -1,6 +1,14 @@
 {
   "name": "@amz-dev/justask-core",
   "version": "0.0.2",
+  "description": "Shared business logic, schemas, and operations for JustAsk",
+  "author": "Affan Mushtaque <https://github.com/affan-DevOp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP.git",
+    "directory": "packages/core"
+  },
   "files": [
     "dist"
   ],

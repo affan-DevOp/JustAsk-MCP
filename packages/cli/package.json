@@ -1,6 +1,14 @@
 {
   "name": "@amz-dev/justask",
   "version": "0.0.2",
+  "description": "JustAsk CLI for sending Telegram messages from terminal and scripts",
+  "author": "Affan Mushtaque <https://github.com/affan-DevOp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP.git",
+    "directory": "packages/cli"
+  },
   "bin": {
     "justask": "./dist/index.js"
   },

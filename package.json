@@ -1,5 +1,17 @@
 {
   "name": "justask-workspace",
+  "version": "0.0.2",
+  "description": "Build agent-ready tools with one shared TypeScript core for MCP, CLI, and Skills.",
+  "author": "Affan Mushtaque <https://github.com/affan-DevOp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP.git"
+  },
+  "homepage": "https://github.com/affan-DevOp/JustAsk-MCP#readme",
+  "bugs": {
+    "url": "https://github.com/affan-DevOp/JustAsk-MCP/issues"
+  },
   "private": true,
   "type": "module",
   "workspaces": [
